@@ -65,6 +65,13 @@ padding-left: 7%;
 	color: black;
 
 }
+#invoiceIntro {
+	background-color: rgb(197, 194, 194);
+	text-align: center;
+	padding-top: 5%;
+	color: black;
+	
+}
 
 
 .whatsNew {
@@ -137,3 +144,4 @@ figcaption {
 
 
 }
+
