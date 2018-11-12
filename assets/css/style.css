@@ -58,6 +58,15 @@ padding-left: 7%;
 	
 }
 
+#studentIntro {
+	background-color: rgb(197, 194, 194);
+	text-align: center;
+	padding-top: 5%;
+	color: black;
+
+}
+
+
 .whatsNew {
 	background-color:grey;
 	font-family: cursive;
@@ -68,9 +77,13 @@ padding-left: 7%;
 
 .iconsRow {
 	margin-left: 8%;
-	padding-left: 3%;
+	padding-left: 4%;
 	display: flex;
 	align-content: space-between;
+}
+
+.studentIcons {
+	padding-top: 8%;
 }
 
 .maggie {
@@ -89,6 +102,7 @@ img{
 	width: 100%;
 	
 }
+
 
 img:hover{
 	opacity: 0.5;
@@ -119,6 +133,7 @@ figcaption {
 	width: 25%;
 	
 	margin-left: 1%;
+
 
 
 }
