@@ -11,6 +11,32 @@
     <title>School Member Dashboard</title>
 </head>
 
+
+<!-- Modal -->
+<div id="uploadModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">File upload form</h4>
+        </div>
+        <div class="modal-body">
+          <!-- Form -->
+          <form method='post' action='' enctype="multipart/form-data">
+            Select file : <input type='file' name='file' id='file' class='form-control' ><br>
+            <input type='button' class='btn btn-info' value='Upload' id='upload'>
+          </form>
+  
+          <!-- Preview-->
+          <div id='preview'></div>
+        </div>
+   
+      </div>
+  
+    </div>
+  </div>
 <body class= "body">
        <div class= "container-main">
            <div class= "row">
@@ -75,11 +101,13 @@
               
               <div class= "row">
                 <div class= "column-lg-3 intro" id= "studentIntro">
-                  <p>Ready to submit your students for ABMP Student Membership or Exam Coach?</p>
-                   <p> We've got an easy 2-step process below!</p>
-                    
+                  <p text-align="Center">Ready to submit your students for ABMP Student Membership or Exam Coach?</p>
+                   <p><strong>Step 1: Click the ABMP Excel Order sheet below</strong></p>
+                   <p><strong>Step 2: Save, Open to fill it out, and save it again! </strong></p>
+                   <p><strong>Step 3: Click the "Upload File" button, attach your saved sheet to the form that pops up, write any pertinent info you need us to see in the body of the email </strong></p>
+                   <p><strong>Step 4: Send! </strong></p>
                    
-                  </p>
+                  
                 </div>
               </div>
               <div class= "row iconsRowStudent">
@@ -94,7 +122,7 @@
                    <div class="card" id="mailCard">
                    <a href="mailto:studentorders@abmp.com"> <img class="card-img-top" src="https://www.iosicongallery.com/icons/inbox-by-gmail-2014-10-22/512.png" alt="Card image cap"></a>
                               <div class="card-body">
-                                <p class="card-text">Send order</p>
+                                <p class="card-text"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#uploadModal">Upload file</button></p>
                               </div>
                 </div>
                           
