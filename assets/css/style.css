@@ -47,11 +47,12 @@ padding-left: 7%;
 
 
 }
-
+/* Icons on index */
 .payment{
 	height: 500px;
 }
 
+/* Index intro */
 .intro {
 	text-align: left;
 	border:solid;
@@ -62,7 +63,7 @@ padding-left: 7%;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	
 }
-
+/* Student Submit intro */
 #studentIntro {
 	background-color: rgb(197, 194, 194);
 	text-align: center;
@@ -71,6 +72,8 @@ padding-left: 7%;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 }
+
+/* Pay Invoices intro */
 #invoiceIntro {
 	background-color: #569fd3;
 	opacity: .8;
@@ -82,7 +85,7 @@ padding-left: 7%;
 	
 }
 
-
+/* Index */
 .whatsNew {
 	background-color:#8eb519;
 	font-family: cursive;
@@ -92,82 +95,85 @@ padding-left: 7%;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+/* Index Icon row */
 .iconsRow {
-	margin-left: 8%;
-	padding-left: 12%;
-	display: flex;
-	align-content: space-between;
+display: flex;
+justify-content: center;
+flex-direction: row;
+
+align-content: space-around;
+
+	
 }
+#studentCard{
+	margin-right: 5%;
+}
+
+#invoiceCard{
+	margin-right: 5%;
+}
+
+#renew {
+	font-size: 14px;
+}
+
+/* submit student icon row */
+.iconsRowStudent {
+	padding-top: 5%;
+	justify-content: center;
+	display: flex;
+
+	flex-direction: row;
+	
+	align-content:space-between;
+	
+		
+	}
+
+
+.card {
+	height: 100px;
+	width: 20%;
+	
+	color: black;
+
+}
+
+/* Submit student specific cards */
+#excelCard {
+	margin-right: 10%;
+}
+#mailCard {
+	margin-bottom: 5%;
+}
+
+/* All cards */
+.card-text {
+	background-color: white;
+	color: black;
+	font-size: 14px;
+}
+.card-body{
+	background-color: white;
+}
+.card-img-top{
+	background-color: white;
+}
+
 
 .studentIcons {
 	padding-top: 8%;
 }
 
-.maggie {
-	border: solid;
-	background-color: white;
-	border-color: white;
-	height: 200px;
-	width: 22%;
-	
-	margin-left: 1%;
-}
-
-img{
-	height: 200px;
-	padding: 2%;
-	width: 60%;
-	margin-bottom: 2%;
-	
+.card:hover{
+opacity: 0.5;
 }
 
 
-img:hover{
-	opacity: 0.5;
-}
-figcaption {
-	background-color: white;
-	font-display: bold;
-	text-align: center;
-	color: rgb(39, 38, 38);
-	margin-bottom: 2%;
-}
+ 
 
-.figRenew{
-	font-size: 15px;
-}
-.payment {
-	border: solid;
-	background-color: white;
-	border-color: white;
-	height: 200px;
-	width: 22%;
-	
-	margin-left: 1%;
 
-}
-
-.renew {
-	border: solid;
-	background-color: white;
-	border-color: white;
-	height: 200px;
-	width: 22%;
-	
-	margin-left: 1%;
-
-}
-#excel {
-	height: 200px;
-	width: 22%;
-	padding-bottom: 10%;
-}
-
-#emailStudentOrders {
-	height: 200px;
-	width: 22%;
-}
-
+/* Pay invoices page */
 .tableDiv {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	padding-top: 5%;
@@ -187,4 +193,6 @@ figcaption {
 .payBtn {
 	background-color: #8eb519;
 }
+
+
 
