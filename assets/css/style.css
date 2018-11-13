@@ -163,6 +163,8 @@ figcaption {
 	padding-top: 5%;
 	background-color: white;
 	color: black;
+	 border-color: grey;
+	 border:solid;
 }
 
 .receiptBtn {
