@@ -145,6 +145,16 @@ align-content: space-around;
 }
 #mailCard {
 	margin-bottom: 5%;
+	/* padding-bottom: 5%; */
+	height: 90px;
+}
+
+.sendToPdfFillerEmpty {
+	display: none;
+}
+
+.sendToPdfFiller{
+	display: none;
 }
 
 /* All cards */
@@ -185,10 +195,13 @@ opacity: 0.5;
 
 .receiptBtn {
 	background-color: #ff9900;
-
+	color: black;
 
 }
 
+a {
+	color:black;
+}
 
 .payBtn {
 	background-color: #8eb519;
