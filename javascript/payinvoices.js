@@ -9,10 +9,13 @@
 //   };
 //   firebase.initializeApp(config);
 
+//show password modal when pay button is clicked
+
   $(".payBtn" ).on("click", function() {
       $(".modal").show();
   });
 
+  //hide modal when 'submit' is clicked
   
   $("#submitBtn").on("click", function(){
     $(".modal").hide();
