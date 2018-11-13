@@ -35,7 +35,7 @@ padding-left: 7%;
 }
 
 #main-section {
-	height: 600px;
+	height: 500px;
 	width: 60%;
 	margin: 0 auto;
 	background-color:#3c83bf;
@@ -84,11 +84,11 @@ padding-left: 7%;
 
 
 .whatsNew {
-	background-color:grey;
+	background-color:#8eb519;
 	font-family: cursive;
 	text-align: center;
 	font-size: 24px;
-	opacity: 0.8;
+	
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -107,14 +107,14 @@ padding-left: 7%;
 	border: solid;
 	background-color: white;
 	border-color: white;
-	height: 300px;
+	height: 200px;
 	width: 25%;
 	
 	margin-left: 1%;
 }
 
 img{
-	height: 250px;
+	height: 200px;
 	padding: 1%;
 	width: 100%;
 	
@@ -131,11 +131,14 @@ figcaption {
 	color: rgb(39, 38, 38);
 }
 
+.figRenew{
+	font-size: 15px;
+}
 .payment {
 	border: solid;
 	background-color: white;
 	border-color: white;
-	height: 300px;
+	height: 200px;
 	width: 25%;
 	
 	margin-left: 1%;
@@ -146,7 +149,7 @@ figcaption {
 	border: solid;
 	background-color: white;
 	border-color: white;
-	height: 300px;
+	height: 200px;
 	width: 25%;
 	
 	margin-left: 1%;
@@ -167,6 +170,6 @@ figcaption {
 
 }
 .payBtn {
-	background-color: rgb(24, 201, 24);
+	background-color: #8eb519;
 }
 
