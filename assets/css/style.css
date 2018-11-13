@@ -65,10 +65,11 @@ padding-left: 7%;
 }
 /* Student Submit intro */
 #studentIntro {
-	background-color: rgb(197, 194, 194);
-	text-align: center;
+	background-color: #569fd3;
+	opacity: .8;
 	padding-top: 5%;
-	color: black;
+	color: white;
+	font-weight: 300;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 }
@@ -80,6 +81,7 @@ padding-left: 7%;
 	text-align: center;
 	padding-top: 2%;
 	color:white;
+	
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	
 	
