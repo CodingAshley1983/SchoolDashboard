@@ -31,7 +31,7 @@ padding-left: 7%;
 	align-content: center;
 	padding-left: 16%;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size:14px;
+	font-size:16px;
 }
 
 #main-section {
@@ -132,7 +132,7 @@ align-content: space-around;
 
 
 .card {
-	height: 100px;
+	height: 80px;
 	width: 20%;
 	
 	color: black;
