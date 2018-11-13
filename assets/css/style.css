@@ -9,7 +9,7 @@
  background-color:#3c83bf;
     height: 150px;
     width: 60%;
-    font-family:sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;;
     font-size: 50px;
     color: white;
@@ -30,6 +30,8 @@ padding-left: 7%;
 	display: flex;
 	align-content: center;
 	padding-left: 16%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:14px;
 }
 
 #main-section {
@@ -46,7 +48,9 @@ padding-left: 7%;
 
 }
 
-
+.payment{
+	height: 500px;
+}
 
 .intro {
 	text-align: left;
@@ -55,6 +59,7 @@ padding-left: 7%;
 	width: 100%;
 	height: 150px;
 	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	
 }
 
@@ -63,13 +68,17 @@ padding-left: 7%;
 	text-align: center;
 	padding-top: 5%;
 	color: black;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 }
 #invoiceIntro {
-	background-color: rgb(197, 194, 194);
+	background-color: #569fd3;
+	opacity: .8;
 	text-align: center;
-	padding-top: 5%;
-	color: black;
+	padding-top: 2%;
+	color:white;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	
 	
 }
 
@@ -80,6 +89,7 @@ padding-left: 7%;
 	text-align: center;
 	font-size: 24px;
 	opacity: 0.8;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .iconsRow {
@@ -143,5 +153,20 @@ figcaption {
 
 
 
+}
+
+.tableDiv {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding-top: 5%;
+	background-color: white;
+	color: black;
+}
+
+.receiptBtn {
+	background-color: #ff9900;
+
+}
+.payBtn {
+	background-color: rgb(24, 201, 24);
 }
 
