@@ -86,6 +86,11 @@ padding-left: 7%;
 	
 }
 
+#schoolRenewIntro {
+	text-align: center;
+	padding-top: 5%;
+}
+
 /* Index */
 .whatsNew {
 	background-color:#8eb519;
@@ -181,17 +186,28 @@ opacity: 0.5;
 }
 
 
- 
+ /*renewMembership:*/
+ .renewBtn{
+	 background-color: white;
+ }
 
 
 /* Pay invoices page */
 .tableDiv {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
 	padding-top: 5%;
 	background-color: white;
 	color: black;
 	 border-color: grey;
 	 border:solid;
+}
+ #schoolTable {
+	 font-size: 14px;
+ }
+#schoolMember{
+	font-size: 14px;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .receiptBtn {
@@ -208,5 +224,20 @@ a {
 	background-color: #8eb519;
 }
 
+#coiBtn {
+	background-color: white;
+	color: black
+}
 
+#aieBtn {
+	background-color: white;
+	color: black;
+
+}
+
+#memberOptions{
+	padding-top: 5%;
+	height: 150px;
+	background-color: white;
+}
 
