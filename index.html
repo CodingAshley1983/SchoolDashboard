@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
+ 
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     
     <title>School Member Dashboard</title>
 </head>
@@ -73,8 +74,8 @@
 
               <div class= "container-fluid" id= "main-section">
                
-              <div class= "row">
-                <div class= "column-lg-3 intro">
+              <div class= "row intro">
+                
                   <p>Welcome to your new ABMP School Member Dashboard!</p>
                    <p> Manage all of the details of your school membership, students, payments, faculty, and more- all in one place! 
                     
@@ -88,25 +89,28 @@
               <br>
               <div class= "row iconsRow">
               
-                    <a href="studentsubmit.html" class="card" id= "studentCard">
+                   <div class="card" id= "studentCard">
                         <img class="card-img-top" src="https://cdn0.iconfinder.com/data/icons/user-collection-4/512/directory-512.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Submit New Students</p>
+                          <a href="studentsubmit.html"><button class="btn-primary">Add New Students</button></a>
                         </div>
+                   </div>  
                       
                       
-                 <a href="payinvoices.html" class="card" id= "invoiceCard">
+                <div class="card" id= "invoiceCard">
                   <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6P0vYrJVN7m0f-GibIyUxhDsyWgd6K-rFRE5ZOyBaFoWPz3TftQ" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Pay invoices online</p>
+                          <a href="payinvoices.html"><button class= "btn-success">Pay invoices online</button></a>
                         </div>
+                  </div>
                       
                 
-                        <div class="card" >
-                            <a href="renewMembership.html"> <img class="card-img-top" src="assets/images/logogood.png" alt="Card image cap"></a>
+                        <div class="card" id ="renewCard">
+                             <img class="card-img-top" src="assets/images/logogood.png" alt="Card image cap"></a>
                                        <div class="card-body">
-                                         <p class="card-text">School Renewal</p>
+                                        <a href="renewMembership.html"><button class="btn-info">School Renewal</button></a>
                                        </div>
+                          </div>             
                            
                 </div>
             </div>           

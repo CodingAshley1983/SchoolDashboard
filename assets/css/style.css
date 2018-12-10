@@ -85,7 +85,21 @@ padding-left: 7%;
 	
 	
 }
-
+#form-header{
+	background-color:  #569fd3;
+	color: white;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	width: 70%;
+	margin: 0 auto;
+}
+.main-section-form{
+	background-color: ghostwhite;
+	width: 70%;
+	margin: 0 auto;
+}
 #schoolRenewIntro {
 	text-align: center;
 	padding-top: 5%;
@@ -113,7 +127,10 @@ align-content: space-around;
 }
 #studentCard{
 	margin-right: 5%;
+	
 }
+
+
 
 #invoiceCard{
 	margin-right: 5%;
@@ -130,7 +147,6 @@ align-content: space-around;
 	display: flex;
 	height: 300px;
 	flex-direction: row;
-	
 	align-content:space-between;
 	
 		
@@ -140,8 +156,7 @@ align-content: space-around;
 .card {
 	height: 80px;
 	width: 20%;
-	
-	color: black;
+
 
 }
 
@@ -150,7 +165,7 @@ align-content: space-around;
 	margin-right: 10%;
 }
 #mailCard {
-	margin-bottom: 5%;
+	
 	/* padding-bottom: 5%; */
 	height: 90px;
 }
@@ -167,19 +182,18 @@ align-content: space-around;
 .card-text {
 	background-color: white;
 	color: black;
-	font-size: 14px;
+
 }
 .card-body{
 	background-color: white;
 }
 .card-img-top{
 	background-color: white;
+	
 }
 
 
-.studentIcons {
-	padding-top: 8%;
-}
+
 
 .card:hover{
 opacity: 0.5;
@@ -210,15 +224,11 @@ opacity: 0.5;
 	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.receiptBtn {
-	background-color: #ff9900;
-	color: black;
-
+.btn-warning{
+	color: white;
 }
 
-a {
-	color:black;
-}
+
 
 .payBtn {
 	background-color: #8eb519;
@@ -241,3 +251,23 @@ a {
 	background-color: white;
 }
 
+.signature-pad {
+	margin: auto;
+	height: auto;
+  }
+  
+  .signature-pad--body {
+	min-height: 360px;
+  }
+  
+  .signature-pad--actions {
+	overflow: hidden;
+  }
+  
+  .signature-pad--actions > div:first-child {
+	float: left;
+  }
+  
+  .signature-pad--actions > div:last-child {
+	float: right;
+  }
