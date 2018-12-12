@@ -41,7 +41,7 @@ function updateOutput(){
         });
 
     $(document).ready(function() {
-    $("#enrollment-modal").show();
+     $("#enrollment-modal").show();
     $("#calc-modal").show();
 
     
