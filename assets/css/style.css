@@ -3,6 +3,31 @@
 	
 }
 
+
+	#enrollment-modal-footer{
+		text-align: center;
+		background-color: white;
+	}
+	legend{
+		text-align: center;
+		background-color: #3c83bf;
+		color:white;
+	}
+	.legend1{
+		
+		color: black;
+	
+		margin: 0 auto;
+	}
+	#formHelp{
+		text-align: center;
+	}
+	.popup-button {
+		margin-left: 140px;
+		margin-top: 77px;
+		font-weight: bold;
+	} 
+
 .container-main {
 	display: flex;
 	flex-direction: row;
@@ -29,7 +54,7 @@ padding-left: 7%;
 	margin: 0 auto;
 	display: flex;
 	align-content: center;
-	padding-left: 16%;
+
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size:16px;
 }
@@ -57,7 +82,7 @@ padding-left: 7%;
 	text-align: left;
 	border:solid;
 	border-color: white;
-	width: 100%;
+	width: 60%;
 	height: 150px;
 	font-size: 20px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -66,8 +91,11 @@ padding-left: 7%;
 /* Student Submit intro */
 #studentIntro {
 	background-color: #569fd3;
-	font-size: 12px;
+	font-size: 18px;
 	color: white;
+	width: 100%;
+	text-align: center;
+	line-height: 80px;
 	font-weight: 300;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
@@ -80,6 +108,8 @@ padding-left: 7%;
 	text-align: center;
 	padding-top: 2%;
 	color:white;
+	width: 100%;
+	margin: 0 auto;
 	
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	
@@ -92,24 +122,28 @@ padding-left: 7%;
 	text-align: center;
 	line-height: 50px;
 	height: 50px;
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 }
 .main-section-form{
 	background-color: ghostwhite;
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 }
 #schoolRenewIntro {
 	text-align: center;
 	padding-top: 5%;
+	width: 100%;
 }
+
+
 
 /* Index */
 .whatsNew {
 	background-color:#8eb519;
 	font-family: cursive;
 	text-align: center;
+	
 	font-size: 24px;
 	
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -123,14 +157,10 @@ flex-direction: row;
 
 align-content: space-around;
 
-	
-}
+} 
 #studentCard{
 	margin-right: 5%;
-	
 }
-
-
 
 #invoiceCard{
 	margin-right: 5%;
@@ -143,10 +173,13 @@ align-content: space-around;
 /* submit student icon row */
 .iconsRowStudent {
 	padding-top: 5%;
+	width: 70%;
 	justify-content: center;
+	margin:0 auto;
 	display: flex;
 	height: 300px;
 	flex-direction: row;
+	
 	align-content:space-between;
 	
 		
@@ -156,18 +189,21 @@ align-content: space-around;
 .card {
 	height: 80px;
 	width: 20%;
-
+	
+	color: black;
 
 }
 
 /* Submit student specific cards */
 #excelCard {
 	margin-right: 10%;
+	margin-left:40%;
+	width: 23%;
 }
 #mailCard {
-	
+
 	/* padding-bottom: 5%; */
-	height: 90px;
+	width: 23%;
 }
 
 .sendToPdfFillerEmpty {
@@ -182,18 +218,19 @@ align-content: space-around;
 .card-text {
 	background-color: white;
 	color: black;
-
+	font-size: 14px;
 }
 .card-body{
 	background-color: white;
 }
 .card-img-top{
 	background-color: white;
-	
 }
 
 
-
+.studentIcons {
+	padding-top: 8%;
+}
 
 .card:hover{
 opacity: 0.5;

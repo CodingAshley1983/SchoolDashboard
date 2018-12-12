@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <script src="signature.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <!-- <script src="signature.js"></script> -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -95,8 +97,9 @@
 
     <div class="main-section-form">
         <form>
+            <fieldset>
             <div class="form-group text col-6">
-                <legend>School Information</legend>
+                <legend class="legend1">School Information</legend>
                 <label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                         placeholder="School Name"></label>
@@ -173,51 +176,33 @@
                 <label for="exampleTextarea">Any pertinent changes to note? New admin, new address?</label>
                 <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
             </div>
-
-            <fieldset class="form-group">
-                <legend>Please select the level of membership you are renewing</legend>
-                <div class="form-check" form id="calc">
-                    <label class="form-check-label" oninput="updateOutput()">
-                        <input type="radio" class="form-check-input" name="y" id="premier" value="0" oninput="updateOutput()">
-                        ABMP Premier Membership - $0
-                    </label>
+            </fieldset>
+            <fieldset class="form-group calc">
+                <legend class="legend1">Please select the level of membership you are renewing</legend>
+                <div class="radio">
+                    <label><input type="radio" name="premier-cost" value="0" id="premier" >ABMP Premier Membership - $0</label>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="y" id="enhanced" value="150" oninput="updateOutput()">
-                        ABMP Enhanced Membership- $150.00
-                    </label>
+                <div class="radio">
+                    <label><input type="radio"  name="enhanced-cost" value="150.00" id="enhanced" >ABMP Enhanced Membership- $150.00</label>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="y" id="standard" value="350" oninput="updateOutput()">
-                        ABMP Standard Membership-$350.00
-                    </label>
+                <div class="radio">
+                    <label><input type="radio"  name="standard-cost" value="350.00" id="standard" >ABMP Standard Membership-$350.00</label>
                 </div>
             </fieldset>
             <fieldset class="form-group calc">
-                <legend>Are you renewing your School liability Insurance policy?</legend>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="z" id="insurance" value="750" oninput="updateOutput()">
-                        Yes - $750.00
-                    </label>
+                <legend class="legend1">Are you renewing your School liability Insurance policy?</legend>
+                <div class="radio">
+                    <label><input type="radio" name="insurance-cost" value="750.00" id="insurance-radio">Yes- $750.00 </label>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="z" id="noins" value="0">
-                        No, I am not renewing my insurance policy.
-                    </label>
+                <div class="radio">
+                    <label><input type="radio" name="noins-cost" value="0" id="noins" >No, I am not renewing my insurance policy.</label>
                 </div>
-                <div class="form-check disabled">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="z" id="neverins" value="0">
-                        I did not have an insurance policy.
-                    </label>
+                <div class="radio">
+                    <label><input type="radio" name="neverins-cost" value="0" id="neverins" value="0">I did not have an insurance policy.</label>
                 </div>
             </fieldset>
             <fieldset class="form-group">
-                <legend>Our school has new students start:</legend>
+                <legend class="legend1">Our school has new students start:</legend>
                 <div class="radio">
                     <label><input type="radio" name="optradio">Every 1-2 months</label>
                 </div>
@@ -237,26 +222,26 @@
             </fieldset>
 
             <fieldset class="form-group">
-                <legend>When is your next student start?</legend>
+                <legend class="legend1">When is your next student start?</legend>
                 <div class="date">
                     <label><input type="date"></label>
                 </div>
 
             </fieldset>
             <fieldset class="form group">
-                <legend>Number of students enrolling this year:</legend>
+                <legend class="legend1">Number of students enrolling this year:</legend>
                 <div class="text">
                     <label><input type="number" min="1"></label>
                 </div>
             </fieldset>
             <fieldset class="form group">
-                <legend>Total number of Massage Program Hours:</legend>
+                <legend class="legend1">Total number of Massage Program Hours:</legend>
                 <div class="text">
                     <label><input type="number" min="1"></label>
                 </div>
             </fieldset>
             <fieldset class="form-group">
-                <legend>Do you currently, or do you intend to, teach hot stone massage/therapies in your program?</legend>
+                <legend class="legend1">Do you currently, or do you intend to, teach hot stone massage/therapies in your program?</legend>
                 There is no additional cost for liabilty insurance coverage for this, but additional steps are required
                 to activate this coverage. Hot Stone instructors will receive an email for instructions. Please list
                 these instructors below, <strong>only if you are including liability insurance</strong>.
@@ -271,26 +256,27 @@
                 </div>
             </fieldset>
             <fieldset class="form-group calc">
-                    <legend>Please add/renew our Business Personal Property Insurance:</legend>
+                    <legend class="legend1"><strong>Skip if uninsured: </strong>Please add/renew Business Personal Property Insurance:</legend>
                     <div class="radio">
-                        <label><input type="radio" name="optradio" value="225">$10,000 coverage, $225/year</label>
+                        <label><input type="radio" name="10k" value="225.00" id="bppcoverage-1">$10,000 coverage, $225/year</label>
                     </div>
                     <div class="radio">
-                        <label><input type="radio" name="optradio" value="425">$25,000 coverage, $425/year</label>
+                        <label><input type="radio" name="25k" value="425.00" id="bppcoverage-2">$25,000 coverage, $425/year</label>
                     </div>
                     <div class="radio">
-                        <label><input type="radio" name="optradio" value="0">We would not like added protection.</label>
+                        <label><input type="radio" name="none" value="0" id="bppcoverage-3">We would not like added protection.</label>
                     </div>
             </fieldset>
             <fieldset>
                 <div class="form-group">
-                    <legend> <label for="exampleFormControlFile1">If insured, please attach scanned copy of current
+                    <legend class="legend1"> <label for="exampleFormControlFile1">If insured, please attach scanned copy of current
                             state approval doc:</label></legend>
                     <input type="file" class="form-control-file" id="exampleFormControlFile1">
                 </div>
             </fieldset>
+            
             <fieldset class="form-group">
-                <legend><strong>Your Signature Required</strong></legend>
+                <legend class="legend1"><strong>Your Signature Required</strong></legend>
                 <p>Practice/Service History: As a condition for membership and insurance coverage, by my
                     signature/acknowledgement below, I also represent and warrant
                     that (1) no malpractice or negligence allegation has ever been asserted against the school, its
@@ -332,9 +318,9 @@
                     made in this application or subsequent communications may void this application and result in
                     termination of membership and loss of insurance coverage. I
                     accept the terms of the application.</p>
-
-            </fieldset>
-            <div id="canvas">
+ 
+            </fieldset> 
+            <!-- <div id="canvas">
                 <canvas class="roundCorners" id="newSignature" style="position: relative; margin: 0; padding: 0; border: 1px solid #c4caac;"></canvas>
             </div>
             <script>signatureCapture();</script>
@@ -344,11 +330,11 @@
            
             </br>
 
-            </fieldset>
+            </fieldset> -->
 
 
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+           <a href="education@abmp.com"><button class="btn btn-primary">Submit</button></a>
 
         </form>
 
@@ -357,6 +343,43 @@
 
 
 
+        <div class="modal show modal-sm" id="calc-modal" data-backdrop="static">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                           
+          
+                  <h4 class="modal-title">ABMP Renewal Fees</h4>
+                   </div>
+                   <div class="modal-body calc-body">
+                       
+                          
+                             
+                                
+                                <div>Membership dues:
+                                <p id="dues-p"></p>
+                                </div>
+                                
+                                <div>Insurance :
+                                <p id="insurance-p"></p>
+                                </div>
+                                
+                                <div>BPP:
+                                <p id="bpp"></p>
+                                 </div>
+                                 <br>
+                                <div><strong>Total Due :</strong>
+                                <p id="total-p"></p>
+                                </div>
+                        </div>
+                         
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  
+                </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
 
 
 
@@ -369,19 +392,11 @@
 
 
 
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script> -->
+    <script src="javascript/main.js"></script>
 
 </body>
 

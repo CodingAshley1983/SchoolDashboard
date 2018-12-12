@@ -18,5 +18,5 @@
   //hide modal when 'submit' is clicked
   
   $("#submitBtn").on("click", function(){
-    $(".modal").hide();
+    $("#enrollment-modal").hide();
   });

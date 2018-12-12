@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
     <title>School Member Dashboard</title>
 </head>
-<body class= "body">
+<body>
+
        <div class= "container-main">
            <div class= "row">
             
@@ -74,7 +76,7 @@
 
               <div class= "container-fluid" id= "main-section">
                
-              <div class= "row intro">
+              <div class= "row">
                 
                   <p>Welcome to your new ABMP School Member Dashboard!</p>
                    <p> Manage all of the details of your school membership, students, payments, faculty, and more- all in one place! 
@@ -82,7 +84,7 @@
                    
                   </p>
                 </div>
-              </div>
+              
               <div class= "row whatsNew">
                 Quick Start: What would you like to do today?
               </div>
@@ -114,9 +116,31 @@
                            
                 </div>
             </div>           
+
+            
+<div class="modal modal-sm" id="enrollment-modal" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    
+      <div class="modal-content">
+        <form>
+          <div class="form-group">
+            <legend>ABMP School Survey </legend>
+         
+                <label for="enrollment-data">How many total graduates will you have in 2018?</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter number">
+                <small id="formHelp" class="form-text text-muted">Thank you for your help!.</small>
+              </div>
+            
           
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        </form>
+      </div>
+        <div class="enrollment-modal-footer">
+        <button type="close" id="enroll-submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+   
+          
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script src="javascript/main.js"></script>
 </body>
 </html>
