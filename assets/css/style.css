@@ -121,12 +121,19 @@ padding-left: 7%;
 #form-header{
 	background-color:  #569fd3;
 	color: white;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: 'Barlow', sans-serif;
 	text-align: center;
 	line-height: 50px;
 	height: 50px;
 	width: 60%;
 	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+#renewal-form{
+	border: 2px, solid;
+
+	border-color:  black;
 }
 .main-section-form{
 	background-color: ghostwhite;
@@ -139,7 +146,12 @@ padding-left: 7%;
 	width: 100%;
 }
 
+#calc-modal{
 
+	background-color: #8eb519;
+	width:300px;
+	height: 380px;
+}
 
 /* Index */
 .whatsNew {
@@ -173,6 +185,18 @@ align-content: space-around;
 	font-size: 14px;
 }
 
+#main-section-student{
+	height: 500px;
+	width: 60%;
+	margin: 0 auto;
+	background-color:#3c83bf;
+	opacity: 0.9;
+	color: white;
+	border: solid;
+	border-color: #8eb519;
+	padding-bottom: 10%;
+}
+	
 /* submit student icon row */
 .iconsRowStudent {
 	padding-top: 5%;
@@ -187,27 +211,42 @@ align-content: space-around;
 	
 		
 	}
+.order-inst{
+	text-align: center;
+}
 
+.order-paragraph{
+	font-size: 14px;
 
-.card {
-	height: 80px;
-	width: 20%;
-	
-	color: black;
-
+}
+#please-note{
+	color: #3c83bf;
+	text-decoration: none;
+	background-color: ghostwhite;
 }
 
 /* Submit student specific cards */
 #excelCard {
 	margin-right: 10%;
 	margin-left:40%;
-	width: 23%;
+	width: 22%;
+	height: 46%;
 }
 #mailCard {
 
 	/* padding-bottom: 5%; */
-	width: 23%;
+	height: 46%;
+	width: 21%;
 }
+.card {
+	height: 80px;
+	width: 22%;
+	
+	color: black;
+
+}
+
+
 
 .sendToPdfFillerEmpty {
 	display: none;
