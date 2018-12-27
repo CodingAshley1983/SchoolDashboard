@@ -71,8 +71,7 @@ $("#enroll-submit").on("click", function () {
 $(document).ready(function () {
     $("#enrollment-modal").show();
     $("#calc-modal").show();
-
-
+    $("#student-modal").show();
 
     updateOutput();
 
