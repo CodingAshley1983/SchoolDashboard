@@ -64,7 +64,7 @@ padding-left: 12%;
 	width: 70%;
 	margin: 0 auto;
 	background-color:#3c83bf;
-	opacity: 0.9;
+
 	color: white;
 	border: solid;
 	border-color: white;
@@ -107,7 +107,7 @@ padding-left: 12%;
 /* Pay Invoices intro */
 #invoiceIntro {
 	background-color: #569fd3;
-	opacity: .8;
+	
 	text-align: center;
 	padding-top: 2%;
 	color:white;
@@ -323,9 +323,7 @@ padding-bottom: 5px;
 	padding-top: 8%;
 }
 
-.card:hover{
-opacity: 0.5;
-}
+
 
 
  /*renewMembership:*/
