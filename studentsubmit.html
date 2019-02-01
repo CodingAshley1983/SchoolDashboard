@@ -63,8 +63,6 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <a class="dropdown-item" href="https://www.abmp.com/educators/abmp-school-forums" target="_blank">ABMP School Forum</a>
-                      <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdq4Z5FrdaiyLV2x295bbHgzed9RB_djn1JJQWGYjBRmAhTaw/viewform" target="_blank">IFL Registration</a>
-                      <a class="dropdown-item" href="#">On-site Trainings</a>
                     </div>
                   </li>
                 <li class="nav-item dropdown">
@@ -100,12 +98,12 @@
               <div class= "container-fluid" id= "main-section-student">
               
               <div class= "row">
-                <div class= "column-lg-3 intro" id= "studentIntro">
+                <div class= "column-lg-3" id= "studentIntro">
                   <h3 class="Center">Ready to submit your students for ABMP Student Membership or Exam Coach?</h3>
                  <h4 class="order-inst">Submission made simple!</h4>
                   <hr>
-               <h1 class="order-paragraph">1. Click the Excel "Order sheet" button to download, save, and fill out with new student data.</h1>
-               <h1 class="order-paragraph">2. Click "Send file" to open your default email, attach the file, and send directly to us.</h1>
+               <h1 class="order-paragraph">1. Click the "Order" button to download, save, and fill an excel sheet with NEW student data.</h1>
+               <h1 class="order-paragraph">2. Click "Send" to open your default email, attach the file, and send directly to us!</h1>
                   
                   
                    
@@ -113,31 +111,41 @@
                 </div>
               </div>
               <div class= "row iconsRowStudent">
-               
-                <div class="card" id= "excelCard">
-                   <img class="card-img-top" src="https://www.computerhope.com/issues/pictures/excel-logo.jpg" alt="Card image cap">
-                            <div class="card-body">
-                            <a href="assets/ABMPStudentOrderForm.xlsx"><button type="button" class= "btn-success">Order Sheet</button></a>
-                            </div>
-                    </div>
-                            
-                <div class="card" id="mailCard">
-                   <img class="card-img-top" src="https://www.iosicongallery.com/icons/inbox-by-gmail-2014-10-22/512.png" alt="Card image cap">
-                              <div class="card-body">
-                                <a href="mailto:studentorders@abmp.com"><button class="btn btn-success">Send file</button></a>
-                              </div>
+                
+                <div class="col-6">
+                
+                    <a href="assets/ABMPStudentOrderForm.xlsx"><button type="button" class="btn btn-primary" id="orderBtn"><i class="fa fa-id-badge" aria-hidden="true"></i> Order</button></a>
                 </div>
+                   
+                            
+                <div class="col-6">
+                   
+                                <a href="mailto:studentorders@abmp.com"><button class="btn btn-success btn-lg" id="sendBtn"><i class="fa fa-envelope" aria-hidden="true"></i> Send</button></a>
+                </div>
+               
               </div>
+            
               
                 <div class= "row" id="please-note" style="justify-content: center">
-                <h5>Please note- to prevent duplicate students, refer to <a href="https://www.abmp.com/members/roster-manager/1085772">Manage My Students</a> prior to submitting new students.</h5>
+                <h5>Please note- to prevent duplicate students, check your ABMP Student Roster below prior to submitting.</h5>
                 </div>        
           </div>
+          <br>
+          <br>
+          <br>
+            <div id="main-section-roster">
+              <img src="assets/images/good.JPG" id="roster-image">
+            </div>
         
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
             
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-            <script src="/javascript/draganddrop.js"></script>
+         <script>
+// $("#orderBtn").on("click", function(){
+
+// alert("It appears you have outstanding invoices to pay before submitting your next group of students. Please pay invoices.")
+// })
+         </script>
         </body>
 </html>

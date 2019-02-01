@@ -3,8 +3,8 @@ body {
 	
 }
 
-
-	#enrollment-modal-footer{
+/*Main page*/
+	#enroll-footer{
 		text-align: center;
 		background-color: white;
 	}
@@ -33,7 +33,7 @@ body {
 	flex-direction: row;
  background-color:#3c83bf;
     height: 150px;
-    width: 60%;
+    width: 70%;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;;
     font-size: 50px;
@@ -41,7 +41,7 @@ body {
   text-align: center;
   margin: 0 auto;
 padding-top:3%;
-padding-left: 7%;
+padding-left: 12%;
 
 
 
@@ -50,18 +50,18 @@ padding-left: 7%;
 
 
 .navbar {
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	display: flex;
 	align-content: center;
-
+	margin-right: 191px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size:16px;
 }
 
 #main-section {
 	height: 500px;
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	background-color:#3c83bf;
 	opacity: 0.9;
@@ -85,7 +85,7 @@ padding-left: 7%;
 	text-align: left;
 	border:solid;
 	border-color: white;
-	width: 60%;
+	width: 70%;
 	height: 150px;
 	font-size: 20px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -118,6 +118,8 @@ padding-left: 7%;
 	
 	
 }
+
+/*School Membership renewal*/
 #form-header{
 	background-color:  #569fd3;
 	color: white;
@@ -145,12 +147,14 @@ padding-left: 7%;
 	padding-top: 5%;
 	width: 100%;
 }
-
+/*Calculator*/
 #calc-modal{
 
 	background-color: #8eb519;
-	width:300px;
-	height: 380px;
+	width:280px;
+	height: 400px;
+	font-size: 14px;
+	padding-top: 3%
 }
 
 /* Index */
@@ -171,6 +175,7 @@ justify-content: center;
 flex-direction: row;
 
 align-content: space-around;
+padding-bottom: 5px;
 
 } 
 #studentCard{
@@ -187,27 +192,47 @@ align-content: space-around;
 
 #main-section-student{
 	height: 500px;
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	background-color:#3c83bf;
-	opacity: 0.9;
+	
 	color: white;
 	border: solid;
 	border-color:white;
+	
+}
+
+
+/*Student Submit Page*/
+
+#main-section-roster{
+	height: 800px;
+	width: 70%;
+	margin: auto;
+	
+	
+	color: white;
+	
 	padding-bottom: 10%;
+}
+
+#roster-image{
+	border:solid 3px;
+	border-color: grey;
+	height:800px;
+	width: 100%;
 }
 	
 /* submit student icon row */
 .iconsRowStudent {
 	padding-top: 5%;
-	width: 70%;
+	width: 100%;
 	justify-content: center;
-	margin:0 auto;
 	display: flex;
 	height: 300px;
-	flex-direction: row;
-	
-	align-content:space-between;
+	align-content: center;
+	padding-bottom: 3%;
+	padding-left:15%;
 	
 		
 	}
@@ -223,21 +248,45 @@ align-content: space-around;
 	color: #3c83bf;
 	text-decoration: none;
 	background-color: ghostwhite;
+	font-size: 14px;
+	margin-top: 2%
 }
 
-/* Submit student specific cards */
-#excelCard {
-	margin-right: 10%;
-	margin-left:40%;
-	width: 22%;
-	height: 46%;
-}
-#mailCard {
+/* Excel button */
 
-	/* padding-bottom: 5%; */
-	height: 46%;
-	width: 21%;
+#orderBtn {
+	background-color: orange;
+	border: none;
+	color: white;
+	padding: 62px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 60px;
+	margin: 4px 2px;
+	border-radius: 22%;
+	box-shadow: 10px 10px grey;
+  }
+
+  /*Send to Student Orders email button*/
+#sendBtn {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 62px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 60px;
+	margin: 4px 2px;
+	border-radius:22%;
+	box-shadow: 10px 10px grey;
+
+
 }
+
+
+
 .card {
 	height: 80px;
 	width: 22%;

@@ -61,6 +61,9 @@ function getSum() {
 
 $("#enroll-submit").on("click", function () {
     $("#enrollment-modal").hide();
+    if(e.key === "Enter") {
+        $("#enrollment-modal").hide();
+    }
 
 });
 
